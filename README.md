@@ -157,7 +157,7 @@ That's it. No config, no test runner, no `.spec` files. Your agent reads the NLP
 
 Alethia is a **local-only** runtime by design. The signed binary refuses to navigate to any origin outside the local allowlist (`file://`, `localhost`, `127.0.0.1`, `.local`, RFC1918 ranges). This is a compile-time constant enforced in four places inside the runtime — it is **not** a CLI flag, env var, MCP argument, profile, or UI toggle.
 
-Why: Alethia's zero-IPC execution would make it an ideal credential-stuffing / account-takeover / abuse-automation tool if turned against the open web. It will not become that tool. For partner-specific production-origin access, contact **gatekeeper@vitron.ai** — we issue custom-signed builds; we do not ship configurability.
+Why: Alethia's zero-IPC execution would make it an ideal credential-stuffing / account-takeover / abuse-automation tool if turned against the open web. It will not become that tool. For partner-specific production-origin access, contact **team@vitron.ai** — we issue custom-signed builds; we do not ship configurability.
 
 Full posture at [vitron.ai/safety](https://vitron.ai/safety).
 
